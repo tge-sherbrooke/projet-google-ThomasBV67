@@ -11,19 +11,7 @@ a{
     color: rgb(87, 87, 87);
 }
 
-.wrapper {
 
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-}
-.google-logo{
-    display: block;
-    padding-top: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 272px;
-}
 header{
     color: rgb(82, 82, 82);
     font-family: 'Google Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -38,23 +26,42 @@ header{
 .header_right{
     float: right;
     margin-right: 10px;
+    align-items: center;
+    margin-top: -10px;
 }
-#nav_bar #sign_in {
-    background: #4887ef; 
+.header_right #sign_in {
+    color: #ffffff;
+    background: #2979f8; 
     margin-right: 25px;
     padding: 7px 15px;
     border-radius: 3px; 
     font-weight: bold;
+    
   }
 .google-dropdown-menu{
     float: right;
-    width: 20px;
+    width: 22px;
+
 }
 
 body{
     height: 100%;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.google_logo{
+    display: block;
+    position: absolute;
+    padding-top: 200px;
+    width: 272px;
+    left: 50%;
+    margin-left: -136px;
 }
 .search_bar{
     padding-top: 25px;
@@ -71,9 +78,28 @@ body{
     position: absolute;
     left: 50%;
     margin-left: -250px;
+    top: 350px
+}
+.buttons_google{
+    position: absolute;
+    margin-left:-153px;
+    left: 50%;
+    top: 425px;
+    color: rgb(255, 255, 255);
+}
+.search_button{
+    width: 140px;
+    height: 35px;
+    margin-right: 6px;
+    border:none;
+    border-radius: 3px;
+}
+.lucky_button{
+
 }
 
 footer{
+    color:blue;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -84,25 +110,26 @@ footer{
     height: 100px;
     background-color: rgb(245, 245, 245);
     font-size: 14px;
+    
 }
 .top_footer{
     display: block;
     margin: 0 auto;
     width: 100%;
     height: calc(50% - 1px);
-    color: blueviolet;
-}
-.line{
-    background-color: rgb(212, 212, 212);
+    border-bottom: 1px solid rgb(235, 235, 235);
+    border-top: 1px solid rgb(235, 235, 235)
 }
 .bottom_footer{
     display: block;
     margin: 0 auto;
     width: 100%;
-    height: calc(50% - 1px);
+    height: 50%;
 }
 .bottom_left_footer{
     float: left;
+    color: blue;
+    margin-left: 10px;
 }
 ul {
     margin: 0;
@@ -111,6 +138,7 @@ ul {
 }
 .bottom_right_footer{
     float: right;
+    margin-right: 25px;
 }
 li {
     display: inline-block;
